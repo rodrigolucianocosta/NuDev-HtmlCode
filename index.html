@@ -18,25 +18,47 @@
 		<meta charset="utf-8"> <!-- acerto dos caracteres no documento mostrando caracteres
 		conhecidos pela lígua humana -->
 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- inserção de responsividade ao arquivo para compatilidade com diferentes dispositivos -->
+
 		<title>Criacao Curriculo em HTML NuDev</title> <!-- é o título da pagina, usado para
 		descrever a página marcada em favoritos -->
 		
-		<!--
+		
 		<style>
-			body {background: navy; color: blue;}
-		</style>
-		-->
+
+			div.container{
+				width: 100%
+				border: 1px solid gray;
+			}
+			
+			header, footer{
+				padding: 1em;
+				color: white;
+				background: #0C8B12;
+				clear: left;
+				text-align: center;
+			}
+
+		</style> <!-- estilização do texto resposável por cores, tamanhos e posições -->
+
+
+		
 	</head>
+
+	<body><!-- Ao visitar a página o usuário todo conteúdo é  mostrado e é possível visualizar
+		 por exemplo: fotos, textos e outros
+	-->
+
+	<div class="container">
 
 	<header>
 		<h1>NuDev-HtmlCode - Curriculum</h1>
-		<h2>Criacao de pagina html para criacao de currículo</h2>
-	</header>
+		<h2>Pagina html para criacao de currículo</h2>
+	</header>	 
+	
 
-	<body> 
-	<!-- Ao visitar a página o usuário todo conteúdo é  mostrado e é possível visualizar
-		 por exemplo: fotos, textos e outros
-	-->
+	</div>
 	<section id="dadosPessoais">
 		<div>
 		nome: Rodrigo Luciano Costa
@@ -69,11 +91,15 @@
 	</section>
 
 
-	</body>
+	
 
 	<footer> <!-- define o rodape da pagina -->
 		<p>Rodrigo Luciano Costa. Projeto HtmlCode-NuDev 2017</p>
 	</footer>
+
+	</div>
+
+	</body>
 
 <!-- Referência
 		https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
