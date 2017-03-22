@@ -1,39 +1,83 @@
-<!DOCTYPE html> <!-->doctype é o responsável por fazer as coisas funcionarem direito <-->
-
-<html><!-->html elemento conhecido como root capaz de condensar todo conteúdo
-	em uma página<-->
+<!DOCTYPE html> 
+<html> 
 	
-	<head><!--atua como um container para todas as coisas desejadas a incluir
+	<head> 
+
+	<!--
+	doctype é o responsável por fazer as coisas funcionarem direito
+
+	html elemento conhecido como root capaz de condensar todo conteúdo
+	em uma página
+
+	 head - atua como um container para todas as coisas desejadas a incluir
 		na página html onde não serão mostradas seu conteúdo na pagina de visualização
 		e inclui palavras-chave e uma descrição do que irá apareccer na busca de 
 		resultados,conteúdo entre outros.
-		<-->
+	-->
 
-		<meta charset="utf-8"><!-->acerto dos caracteres no documento mostrando caracteres
-		conhecidos pela lígua humana<-->
+		<meta charset="utf-8"> <!-- acerto dos caracteres no documento mostrando caracteres
+		conhecidos pela lígua humana -->
 
-		<title>Criacao Curriculo em HTML NuDev</title><!-->é o título da pagina, usado para
-		descrever a página marcada em favoritos<-->
+		<title>Criacao Curriculo em HTML NuDev</title> <!-- é o título da pagina, usado para
+		descrever a página marcada em favoritos -->
+		
+		<!--
 		<style>
 			body {background: navy; color: blue;}
 		</style>
-
+		-->
 	</head>
 
-	<body><!-->Ao visitar a página o usuário todo conteúdo é  mostrado e é possível visualizar
-		 por exemplo: fotos, textos e outros
-		<-->
+	<header>
+		<h1>NuDev-HtmlCode - Curriculum</h1>
+		<h2>Criacao de pagina html para criacao de currículo</h2>
+	</header>
 
-		Rodrigo Luciano Costa
-		<a href="https://github.com/rodrigolucianocosta">github</a>
+	<body> 
+	<!-- Ao visitar a página o usuário todo conteúdo é  mostrado e é possível visualizar
+		 por exemplo: fotos, textos e outros
+	-->
+	<section id="dadosPessoais">
+		<div>
+		nome: Rodrigo Luciano Costa
+		</div>
+
+		<div>endereço: Jose Martins Reis 177 - nossa Senhora Aparecida</div>
+
+		<div>telefone / whatsUp: +55 35 984027571</div>
+
+		<div>cidade: Três Corações - MG</div>
+
+		<div>Github
+			<a href="https://github.com/rodrigolucianocosta">https://github.com/rodrigolucianocosta</a>
+		</div>
+	</section>
+
+	<section id="formação acadêmica">
+		<div>
+		formação acadêmica: Bacharel em Ciência da Computação
+		</div>
+
+		<div>
+		Universidade: Universidade Vale do Rio Verde - Unincor
+		</div>
+
+		<div>
+		ano conclusão: 2015
+		</div>
+
+	</section>
+
+
 	</body>
 
-	<footer></footer>
+	<footer> <!-- define o rodape da pagina -->
+		<p>Rodrigo Luciano Costa. Projeto HtmlCode-NuDev 2017</p>
+	</footer>
 
-</html>
-
-
-<!-->Referência
+<!-- Referência
 		https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 		https://www.w3.org/TR/html5/Overview.html#contents
-<-->
+-->
+
+</html>
