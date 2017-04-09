@@ -3,37 +3,39 @@
 	<style>
 		div.container{
 			width: 100%
-			border: 1px solid gray;
 		}
 		
 		header, footer{
-			padding: 1em;
-			color: white;
 			background-color: rgba(153,204,50,.5);
 			color: rgba(0,0,0,1);
 			clear: left;
 			text-align: center;
+			border: 1px solid black;
 		}
 
-		.dadosPessoais, .formacaoAcademica, .complementar{
-			font-size: 17px;
+
+		.dadosPessoais, .formacaoAcademica, .complementar, .areaAtuacao{
+			font-size: 18px;
 			float: left;
 			margin: 20px;
+			padding: 10px auto 50px auto;
+			width: 250px;
+			height: 420px;
 			padding: 20px;
-			width: 350px;
-			height: 300px;
-			border: 1px, solid black;
+			
 		}
 
 		body {
-			background-color: :#dddddd;
+			background-color: #dddddd;
 			color: rgba(0,0,0,1);
 		}
 
 		div#interface{
-		width: 1335px;
-		margin: 20px auto 10px auto;
-		box-shadow: 0px, 0px, 10px, black;
+		position: relative;
+		width: 1340px;
+		box-shadow: 0px 0px 10px black;
+		
+
 	}
 	</style> <!-- estilização do texto resposável por cores, tamanhos e posições -->
 
