@@ -12,7 +12,8 @@
 	 head - atua como um container para todas as coisas desejadas a incluir
 		na página html onde não serão mostradas seu conteúdo na pagina de visualização
 		e inclui palavras-chave e uma descrição do que irá apareccer na busca de 
-		resultados,conteúdo entre outros.
+		resultados,conteúdo entre outros, na verdade isso se resume a areas comportamentais
+		do site.
 	-->
 
 		<meta charset="utf-8"> <!-- acerto dos caracteres no documento mostrando caracteres
@@ -21,28 +22,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- inserção de responsividade ao arquivo para compatilidade com diferentes dispositivos -->
 
-		<title>Criacao Curriculo em HTML NuDev</title> <!-- é o título da pagina, usado para
+		<title>Criacão Curriculo em HTML NuDev</title> <!-- é o título da pagina, usado para
 		descrever a página marcada em favoritos -->
 		
-		
-		<style>
-
-			div.container{
-				width: 100%
-				border: 1px solid gray;
-			}
-			
-			header, footer{
-				padding: 1em;
-				color: white;
-				background: #0C8B12;
-				clear: left;
-				text-align: center;
-			}
-
-		</style> <!-- estilização do texto resposável por cores, tamanhos e posições -->
-
-
+		<link rel="stylesheet" type="text/css" href="stile.css">
 		
 	</head>
 
@@ -50,55 +33,78 @@
 		 por exemplo: fotos, textos e outros
 	-->
 
+	<div id="interface">
+
 	<div class="container">
 
 	<header>
 		<h1>NuDev-HtmlCode - Curriculum</h1>
-		<h2>Pagina html para criacao de currículo</h2>
+		<h2><i>Pagina html para criação de currículo</i></h2>
 	</header>	 
 	
 
 	</div>
-	<section id="dadosPessoais">
-		<div>
-		nome: Rodrigo Luciano Costa
-		</div>
 
-		<div>endereço: Jose Martins Reis 177 - nossa Senhora Aparecida</div>
+	<div class="dadosPessoais">
+	<section id="sectionDadosPessoais">
 
-		<div>telefone / whatsUp: +55 35 984027571</div>
+		<h3>Dados Pessoais</h3>
+		
+		<b>nome:</b> Rodrigo Luciano Costa <br><br>
+		
+		<b>endereço:</b> Jose Martins Reis 177 - nossa Senhora Aparecida <br><br>
 
-		<div>cidade: Três Corações - MG</div>
+		<b>telefone / whatsUp:</b><br> +55 35 984027571 <br><br>
 
-		<div>Github
+		<b>cidade:</b> Três Corações - MG <br><br>
+
+		<b>Github</b><br>
 			<a href="https://github.com/rodrigolucianocosta">https://github.com/rodrigolucianocosta</a>
-		</div>
+		
 	</section>
+	</div>
 
+	<div class="formacaoAcademica">
 	<section id="formação acadêmica">
-		<div>
-		formação acadêmica: Bacharel em Ciência da Computação
-		</div>
+		
+		<h3>Formação Academica</h3>
 
-		<div>
-		Universidade: Universidade Vale do Rio Verde - Unincor
-		</div>
-
-		<div>
-		ano conclusão: 2015
-		</div>
-
+		<b>Formação:</b><br/><br/> Bacharel em Ciência da Computação <br/><br/>
+		
+		<b>Universidade:</b><br/><br/> Universidade Vale do Rio Verde - Unincor <br/><br/>
+				
+		<b>ano conclusão:</b><br><br/> 2015
+		
 	</section>
-
-
-	
-
-	<footer> <!-- define o rodape da pagina -->
-		<p>Rodrigo Luciano Costa. Projeto HtmlCode-NuDev 2017</p>
-	</footer>
 
 	</div>
 
+	<div class="complementar">
+	<section id="complemento">
+
+		<h3>Areas de Interesses</h3>
+
+		Cloud Computing<br><br>
+
+		DevOps<br><br>
+
+		Infraestrutura de TI<br><br>
+
+		Mobile<br><br>
+
+		Desenvolvimento de Jogos<br><br>
+
+	</section>
+
+	</div>
+
+
+	<footer> <!-- define o rodape da pagina -->
+		<p>Rodrigo Luciano Costa. Projeto HtmlCode-NuDev 2017 &copy;</p>
+	</footer>
+
+	</div>
+	</div>
 	</body>
 
 <!-- Referência
